@@ -1,0 +1,17 @@
+td {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 1px;
+    border-style: solid;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ayel, .planejamento, .radio {
+    text-align: center;
+}
