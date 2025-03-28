@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    padding-left: 1%;
+}
+
+.imagem{
+    width: 100vw;
+}
+
+p, h2, h4{
+text-align: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
