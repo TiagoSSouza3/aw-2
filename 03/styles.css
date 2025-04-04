@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 1vw;
+}
+
+.item {
+    padding: 1vw;
+}
+
+img {
+    width: 30vw;
+    height: 17vw;
+}
+
+.item-2 {
+    padding: 1vw;
+}
+
+.item-2 img {
+    opacity: 0.5;
+}
+
+.item-2 img:hover{
+    animation-name: hoverer;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+@keyframes hoverer{
+    0% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
